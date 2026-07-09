@@ -1,0 +1,6 @@
+FULL VALIDATION RESULTS (best.pt)
+=================================
+Precision: 0.943854
+Recall: 0.860835
+mAP50: 0.920379
+mAP50-95: 0.613245
