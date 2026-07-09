@@ -1,0 +1,7 @@
+CLUTTERED_AMBIGUOUS VALIDATION
+==============================
+YAML: /home/btech/2023/piyush.kumar23b/gajendra/code/environment-wise/intermediate/data_val_cluttered_ambiguous.yaml
+Precision: 0.936659
+Recall: 0.848682
+mAP50: 0.905019
+mAP50-95: 0.595163

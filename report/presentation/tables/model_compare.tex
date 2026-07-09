@@ -1,0 +1,24 @@
+% Standalone candidate-detector comparison table for the end-sem slide.
+% Compile with pdflatex (or Overleaf), screenshot/export the result and
+% paste into the slide as an image.
+\documentclass[border=10pt]{standalone}
+\usepackage{booktabs}
+\usepackage{array}
+\begin{document}
+\small
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lccccl}
+\toprule
+\textbf{Model} & \textbf{Params} & \textbf{Speed} & \textbf{Small-object} & \textbf{Tooling} & \textbf{Key feature} \\
+               & \textbf{(M)}    &                & \textbf{detection}    & \textbf{maturity} &                       \\
+\midrule
+YOLOv9              & $\sim$25         & High      & Medium    & High        & PGI + GELAN backbone \\
+\textbf{YOLO11-nano}& \textbf{$\sim$2.6}& \textbf{Very high} & \textbf{High} & \textbf{Very high} & \textbf{C2PSA attention block} \\
+RT-DETR             & $\sim$32         & Medium    & High      & Medium      & Transformer, no NMS \\
+YOLO26              & $\sim$3          & Very high & Very high & Low (new)   & End-to-end CPU inference \\
+NSSRD               & Hardware-tuned   & Medium    & Very high & Low         & NAS backbone, coarse-to-fine \\
+ED-Net              & $\sim$5          & High      & Very high & Low         & Dedicated XSmall head \\
+\bottomrule
+\end{tabular}
+\end{document}

@@ -1,0 +1,45 @@
+
+Label directory  : /home/btech/2023/piyush.kumar23b/gajendra/dataset/nondrone_copy/labels/val
+Total label files: 2539
+
+==================================================
+IMAGE DISTRIBUTION BY DISTANCE BUCKET
+==================================================
+  Pure Close Range    :    460  (18.1%)
+  Pure Medium Range   :    521  (20.5%)
+  Pure Very Far Range :   1471  (57.9%)
+  MIXED (multi-bucket):     86  (3.4%)
+  Empty (no GT boxes) :      1  (0.0%)
+  ─────────────────────────────
+  TOTAL               :   2539
+
+
+==================================================
+MIXED IMAGE COMBINATIONS
+==================================================
+  far+medium                     :    54  (2.1%)
+  close+medium                   :    20  (0.8%)
+  close+far                      :     6  (0.2%)
+  close+far+medium               :     6  (0.2%)
+
+
+==================================================
+TOTAL GT OBJECTS PER DISTANCE BUCKET
+==================================================
+  Close       :    506 objects  (14.2%)
+  Medium      :    699 objects  (19.6%)
+  Far         :   2354 objects  (66.1%)
+  Total       :   3559 objects
+
+
+==================================================
+SAVING IMAGE NAME LISTS TO TXT FILES
+==================================================
+  Saved   521 entries → val_images_pure_medium.txt
+  Saved  1471 entries → val_images_pure_far.txt
+  Saved     1 entries → val_images_empty.txt
+  Saved   460 entries → val_images_pure_close.txt
+  Saved    86 entries → val_images_mixed.txt
+
+Done.
+

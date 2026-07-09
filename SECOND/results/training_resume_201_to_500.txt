@@ -1,0 +1,333 @@
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - 
+======================================================================
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - YOLO11 RESUME TRAINING PIPELINE
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - Target epochs: 500
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - Patience (early stopping): 30
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - Resume checkpoint: /home/btech/2023/piyush.kumar23b/gajendra/code/runs/detect/weights/last.pt
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - Best checkpoint (for eval): /home/btech/2023/piyush.kumar23b/gajendra/code/runs/detect/weights/best.pt
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - Data yaml: /home/btech/2023/piyush.kumar23b/gajendra/code/data.yaml
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - Epoch log file: /home/btech/2023/piyush.kumar23b/gajendra/code/second/results/epoch_progress_201_to_500.txt
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - Training log file: /home/btech/2023/piyush.kumar23b/gajendra/code/second/results/training_resume_201_to_500.txt
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - ======================================================================
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - ======================================================================
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - ENVIRONMENT CHECK (RESUME)
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - ======================================================================
+2026-04-01 05:38:13 - YOLO_Resume_Training - INFO - PyTorch Version: 2.10.0+cu128
+2026-04-01 05:38:14 - YOLO_Resume_Training - INFO - CUDA Available: True
+2026-04-01 05:38:14 - YOLO_Resume_Training - INFO - GPU Count: 1
+2026-04-01 05:38:14 - YOLO_Resume_Training - INFO -   GPU 0: Tesla V100-PCIE-32GB
+2026-04-01 05:38:14 - YOLO_Resume_Training - INFO -     Memory: 34.07 GB
+2026-04-01 05:38:14 - YOLO_Resume_Training - INFO - Configured device index: 0
+2026-04-01 05:38:14 - YOLO_Resume_Training - WARNING - Epoch log file not found. It will be created: /home/btech/2023/piyush.kumar23b/gajendra/code/second/results/epoch_progress_201_to_500.txt
+2026-04-01 05:38:14 - YOLO_Resume_Training - INFO - Using training log file: /home/btech/2023/piyush.kumar23b/gajendra/code/second/results/training_resume_201_to_500.txt
+2026-04-01 05:38:14 - YOLO_Resume_Training - INFO - Detected last logged epoch in 201-500 file: 0
+2026-04-01 05:38:14 - YOLO_Resume_Training - INFO - Effective resume lower bound: 200
+2026-04-01 05:39:08 - YOLO_Resume_Training - WARNING - Ultralytics reported finished checkpoint; attempting metadata-patched resume retry.
+2026-04-01 05:39:08 - YOLO_Resume_Training - WARNING - Created patched resume checkpoint with epochs=500 epoch=199 at /home/btech/2023/piyush.kumar23b/gajendra/code/second/results/last_resume_201_to_500.pt
+2026-04-01 06:01:39 - YOLO_Resume_Training - INFO - Epoch 201/500 | precision=0.9294 recall=0.8422 mAP50=0.9086 mAP50-95=0.6261
+2026-04-01 06:18:28 - YOLO_Resume_Training - INFO - Epoch 202/500 | precision=0.9270 recall=0.8368 mAP50=0.9093 mAP50-95=0.6286
+2026-04-01 06:35:09 - YOLO_Resume_Training - INFO - Epoch 203/500 | precision=0.9287 recall=0.8496 mAP50=0.9102 mAP50-95=0.6252
+2026-04-01 06:51:57 - YOLO_Resume_Training - INFO - Epoch 204/500 | precision=0.9375 recall=0.8431 mAP50=0.9120 mAP50-95=0.6270
+2026-04-01 07:09:34 - YOLO_Resume_Training - INFO - Epoch 205/500 | precision=0.9343 recall=0.8407 mAP50=0.9100 mAP50-95=0.6249
+2026-04-01 07:26:36 - YOLO_Resume_Training - INFO - Epoch 206/500 | precision=0.9225 recall=0.8515 mAP50=0.9107 mAP50-95=0.6320
+2026-04-01 07:44:35 - YOLO_Resume_Training - INFO - Epoch 207/500 | precision=0.9321 recall=0.8458 mAP50=0.9113 mAP50-95=0.6201
+2026-04-01 08:04:25 - YOLO_Resume_Training - INFO - Epoch 208/500 | precision=0.9266 recall=0.8496 mAP50=0.9122 mAP50-95=0.6274
+2026-04-01 08:21:39 - YOLO_Resume_Training - INFO - Epoch 209/500 | precision=0.9201 recall=0.8394 mAP50=0.9034 mAP50-95=0.6290
+2026-04-01 08:38:58 - YOLO_Resume_Training - INFO - Epoch 210/500 | precision=0.9246 recall=0.8539 mAP50=0.9102 mAP50-95=0.6300
+2026-04-01 08:56:45 - YOLO_Resume_Training - INFO - Epoch 211/500 | precision=0.9262 recall=0.8396 mAP50=0.9057 mAP50-95=0.6261
+2026-04-01 09:15:55 - YOLO_Resume_Training - INFO - Epoch 212/500 | precision=0.9316 recall=0.8477 mAP50=0.9141 mAP50-95=0.6329
+2026-04-01 09:34:05 - YOLO_Resume_Training - INFO - Epoch 213/500 | precision=0.9378 recall=0.8394 mAP50=0.9105 mAP50-95=0.6312
+2026-04-01 09:50:44 - YOLO_Resume_Training - INFO - Epoch 214/500 | precision=0.9367 recall=0.8447 mAP50=0.9120 mAP50-95=0.6288
+2026-04-01 10:08:23 - YOLO_Resume_Training - INFO - Epoch 215/500 | precision=0.9316 recall=0.8457 mAP50=0.9129 mAP50-95=0.6285
+2026-04-01 10:26:22 - YOLO_Resume_Training - INFO - Epoch 216/500 | precision=0.9316 recall=0.8541 mAP50=0.9169 mAP50-95=0.6348
+2026-04-01 10:43:32 - YOLO_Resume_Training - INFO - Epoch 217/500 | precision=0.9291 recall=0.8480 mAP50=0.9100 mAP50-95=0.6304
+2026-04-01 11:01:21 - YOLO_Resume_Training - INFO - Epoch 218/500 | precision=0.9228 recall=0.8440 mAP50=0.9084 mAP50-95=0.6308
+2026-04-01 11:19:59 - YOLO_Resume_Training - INFO - Epoch 219/500 | precision=0.9325 recall=0.8501 mAP50=0.9149 mAP50-95=0.6376
+2026-04-01 11:37:30 - YOLO_Resume_Training - INFO - Epoch 220/500 | precision=0.9283 recall=0.8470 mAP50=0.9087 mAP50-95=0.6253
+2026-04-01 11:54:46 - YOLO_Resume_Training - INFO - Epoch 221/500 | precision=0.9146 recall=0.8471 mAP50=0.9083 mAP50-95=0.6349
+2026-04-01 12:12:00 - YOLO_Resume_Training - INFO - Epoch 222/500 | precision=0.9349 recall=0.8475 mAP50=0.9111 mAP50-95=0.6369
+2026-04-01 12:29:49 - YOLO_Resume_Training - INFO - Epoch 223/500 | precision=0.9366 recall=0.8438 mAP50=0.9149 mAP50-95=0.6321
+2026-04-01 12:48:04 - YOLO_Resume_Training - INFO - Epoch 224/500 | precision=0.9362 recall=0.8532 mAP50=0.9157 mAP50-95=0.6345
+2026-04-01 13:05:04 - YOLO_Resume_Training - INFO - Epoch 225/500 | precision=0.9336 recall=0.8459 mAP50=0.9130 mAP50-95=0.6330
+2026-04-01 13:21:38 - YOLO_Resume_Training - INFO - Epoch 226/500 | precision=0.9350 recall=0.8579 mAP50=0.9189 mAP50-95=0.6403
+2026-04-01 13:39:16 - YOLO_Resume_Training - INFO - Epoch 227/500 | precision=0.9409 recall=0.8506 mAP50=0.9189 mAP50-95=0.6379
+2026-04-01 13:54:46 - YOLO_Resume_Training - INFO - Epoch 228/500 | precision=0.9263 recall=0.8537 mAP50=0.9157 mAP50-95=0.6376
+2026-04-01 14:11:08 - YOLO_Resume_Training - INFO - Epoch 229/500 | precision=0.9371 recall=0.8557 mAP50=0.9181 mAP50-95=0.6389
+2026-04-01 14:27:33 - YOLO_Resume_Training - INFO - Epoch 230/500 | precision=0.9436 recall=0.8482 mAP50=0.9184 mAP50-95=0.6409
+2026-04-01 14:46:23 - YOLO_Resume_Training - INFO - Epoch 231/500 | precision=0.9282 recall=0.8499 mAP50=0.9133 mAP50-95=0.6364
+2026-04-01 15:05:31 - YOLO_Resume_Training - INFO - Epoch 232/500 | precision=0.9325 recall=0.8498 mAP50=0.9146 mAP50-95=0.6377
+2026-04-01 15:24:27 - YOLO_Resume_Training - INFO - Epoch 233/500 | precision=0.9325 recall=0.8535 mAP50=0.9184 mAP50-95=0.6421
+2026-04-01 15:44:18 - YOLO_Resume_Training - INFO - Epoch 234/500 | precision=0.9311 recall=0.8548 mAP50=0.9165 mAP50-95=0.6429
+2026-04-01 16:04:09 - YOLO_Resume_Training - INFO - Epoch 235/500 | precision=0.9316 recall=0.8555 mAP50=0.9200 mAP50-95=0.6439
+2026-04-01 16:24:11 - YOLO_Resume_Training - INFO - Epoch 236/500 | precision=0.9294 recall=0.8555 mAP50=0.9175 mAP50-95=0.6454
+2026-04-01 16:43:39 - YOLO_Resume_Training - INFO - Epoch 237/500 | precision=0.9315 recall=0.8602 mAP50=0.9201 mAP50-95=0.6505
+2026-04-01 17:04:48 - YOLO_Resume_Training - INFO - Epoch 238/500 | precision=0.9384 recall=0.8534 mAP50=0.9171 mAP50-95=0.6469
+2026-04-01 17:21:18 - YOLO_Resume_Training - INFO - Epoch 239/500 | precision=0.9403 recall=0.8566 mAP50=0.9198 mAP50-95=0.6452
+2026-04-01 17:37:24 - YOLO_Resume_Training - INFO - Epoch 240/500 | precision=0.9315 recall=0.8608 mAP50=0.9204 mAP50-95=0.6498
+2026-04-01 17:53:04 - YOLO_Resume_Training - INFO - Epoch 241/500 | precision=0.9384 recall=0.8613 mAP50=0.9209 mAP50-95=0.6514
+2026-04-01 18:08:38 - YOLO_Resume_Training - INFO - Epoch 242/500 | precision=0.9328 recall=0.8595 mAP50=0.9195 mAP50-95=0.6501
+2026-04-01 18:24:17 - YOLO_Resume_Training - INFO - Epoch 243/500 | precision=0.9406 recall=0.8604 mAP50=0.9225 mAP50-95=0.6519
+2026-04-01 18:39:59 - YOLO_Resume_Training - INFO - Epoch 244/500 | precision=0.9394 recall=0.8641 mAP50=0.9208 mAP50-95=0.6517
+2026-04-01 18:55:29 - YOLO_Resume_Training - INFO - Epoch 245/500 | precision=0.9384 recall=0.8618 mAP50=0.9235 mAP50-95=0.6532
+2026-04-01 19:11:14 - YOLO_Resume_Training - INFO - Epoch 246/500 | precision=0.9376 recall=0.8671 mAP50=0.9234 mAP50-95=0.6561
+2026-04-01 19:27:10 - YOLO_Resume_Training - INFO - Epoch 247/500 | precision=0.9389 recall=0.8677 mAP50=0.9237 mAP50-95=0.6528
+2026-04-01 19:43:00 - YOLO_Resume_Training - INFO - Epoch 248/500 | precision=0.9430 recall=0.8674 mAP50=0.9221 mAP50-95=0.6556
+2026-04-01 19:58:56 - YOLO_Resume_Training - INFO - Epoch 249/500 | precision=0.9483 recall=0.8599 mAP50=0.9215 mAP50-95=0.6553
+2026-04-01 20:14:41 - YOLO_Resume_Training - INFO - Epoch 250/500 | precision=0.9430 recall=0.8554 mAP50=0.9198 mAP50-95=0.6519
+2026-04-01 20:30:55 - YOLO_Resume_Training - INFO - Epoch 251/500 | precision=0.9393 recall=0.8608 mAP50=0.9213 mAP50-95=0.6525
+2026-04-01 20:46:56 - YOLO_Resume_Training - INFO - Epoch 252/500 | precision=0.9397 recall=0.8641 mAP50=0.9223 mAP50-95=0.6548
+2026-04-01 21:03:01 - YOLO_Resume_Training - INFO - Epoch 253/500 | precision=0.9422 recall=0.8679 mAP50=0.9271 mAP50-95=0.6600
+2026-04-01 21:19:25 - YOLO_Resume_Training - INFO - Epoch 254/500 | precision=0.9423 recall=0.8660 mAP50=0.9260 mAP50-95=0.6576
+2026-04-01 21:35:11 - YOLO_Resume_Training - INFO - Epoch 255/500 | precision=0.9409 recall=0.8623 mAP50=0.9240 mAP50-95=0.6570
+2026-04-01 21:52:22 - YOLO_Resume_Training - INFO - Epoch 256/500 | precision=0.9394 recall=0.8624 mAP50=0.9247 mAP50-95=0.6550
+2026-04-01 22:08:32 - YOLO_Resume_Training - INFO - Epoch 257/500 | precision=0.9436 recall=0.8633 mAP50=0.9245 mAP50-95=0.6553
+2026-04-01 22:25:43 - YOLO_Resume_Training - INFO - Epoch 258/500 | precision=0.9425 recall=0.8584 mAP50=0.9229 mAP50-95=0.6553
+2026-04-01 22:43:48 - YOLO_Resume_Training - INFO - Epoch 259/500 | precision=0.9437 recall=0.8621 mAP50=0.9241 mAP50-95=0.6558
+2026-04-01 23:02:48 - YOLO_Resume_Training - INFO - Epoch 260/500 | precision=0.9447 recall=0.8652 mAP50=0.9253 mAP50-95=0.6566
+2026-04-01 23:21:48 - YOLO_Resume_Training - INFO - Epoch 261/500 | precision=0.9482 recall=0.8633 mAP50=0.9247 mAP50-95=0.6589
+2026-04-01 23:38:41 - YOLO_Resume_Training - INFO - Epoch 262/500 | precision=0.9410 recall=0.8612 mAP50=0.9238 mAP50-95=0.6576
+2026-04-01 23:54:08 - YOLO_Resume_Training - INFO - Epoch 263/500 | precision=0.9454 recall=0.8650 mAP50=0.9246 mAP50-95=0.6587
+2026-04-02 00:09:33 - YOLO_Resume_Training - INFO - Epoch 264/500 | precision=0.9451 recall=0.8647 mAP50=0.9243 mAP50-95=0.6585
+2026-04-02 00:25:08 - YOLO_Resume_Training - INFO - Epoch 265/500 | precision=0.9483 recall=0.8626 mAP50=0.9248 mAP50-95=0.6590
+2026-04-02 00:41:28 - YOLO_Resume_Training - INFO - Epoch 266/500 | precision=0.9455 recall=0.8647 mAP50=0.9257 mAP50-95=0.6593
+2026-04-02 00:58:13 - YOLO_Resume_Training - INFO - Epoch 267/500 | precision=0.9431 recall=0.8631 mAP50=0.9248 mAP50-95=0.6572
+2026-04-02 01:14:23 - YOLO_Resume_Training - INFO - Epoch 268/500 | precision=0.9422 recall=0.8636 mAP50=0.9248 mAP50-95=0.6563
+2026-04-02 01:31:04 - YOLO_Resume_Training - INFO - Epoch 269/500 | precision=0.9421 recall=0.8638 mAP50=0.9252 mAP50-95=0.6573
+2026-04-02 01:48:52 - YOLO_Resume_Training - INFO - Epoch 270/500 | precision=0.9423 recall=0.8629 mAP50=0.9256 mAP50-95=0.6584
+2026-04-02 02:06:46 - YOLO_Resume_Training - INFO - Epoch 271/500 | precision=0.9428 recall=0.8666 mAP50=0.9269 mAP50-95=0.6589
+2026-04-02 02:24:38 - YOLO_Resume_Training - INFO - Epoch 272/500 | precision=0.9426 recall=0.8671 mAP50=0.9265 mAP50-95=0.6586
+2026-04-02 02:40:46 - YOLO_Resume_Training - INFO - Epoch 273/500 | precision=0.9401 recall=0.8692 mAP50=0.9274 mAP50-95=0.6586
+2026-04-02 02:56:00 - YOLO_Resume_Training - INFO - Epoch 274/500 | precision=0.9408 recall=0.8702 mAP50=0.9272 mAP50-95=0.6584
+2026-04-02 03:11:31 - YOLO_Resume_Training - INFO - Epoch 275/500 | precision=0.9404 recall=0.8713 mAP50=0.9268 mAP50-95=0.6590
+2026-04-02 03:28:43 - YOLO_Resume_Training - INFO - Epoch 276/500 | precision=0.9424 recall=0.8709 mAP50=0.9276 mAP50-95=0.6592
+2026-04-02 03:45:50 - YOLO_Resume_Training - INFO - Epoch 277/500 | precision=0.9438 recall=0.8725 mAP50=0.9287 mAP50-95=0.6597
+2026-04-02 04:03:00 - YOLO_Resume_Training - INFO - Epoch 278/500 | precision=0.9460 recall=0.8683 mAP50=0.9295 mAP50-95=0.6602
+2026-04-02 04:19:51 - YOLO_Resume_Training - INFO - Epoch 279/500 | precision=0.9466 recall=0.8662 mAP50=0.9285 mAP50-95=0.6605
+2026-04-02 04:36:45 - YOLO_Resume_Training - INFO - Epoch 280/500 | precision=0.9463 recall=0.8658 mAP50=0.9278 mAP50-95=0.6606
+2026-04-02 04:53:41 - YOLO_Resume_Training - INFO - Epoch 281/500 | precision=0.9475 recall=0.8649 mAP50=0.9284 mAP50-95=0.6614
+2026-04-02 05:10:43 - YOLO_Resume_Training - INFO - Epoch 282/500 | precision=0.9474 recall=0.8670 mAP50=0.9291 mAP50-95=0.6615
+2026-04-02 05:27:43 - YOLO_Resume_Training - INFO - Epoch 283/500 | precision=0.9445 recall=0.8687 mAP50=0.9291 mAP50-95=0.6616
+2026-04-02 05:44:44 - YOLO_Resume_Training - INFO - Epoch 284/500 | precision=0.9460 recall=0.8684 mAP50=0.9291 mAP50-95=0.6621
+2026-04-02 06:01:34 - YOLO_Resume_Training - INFO - Epoch 285/500 | precision=0.9478 recall=0.8660 mAP50=0.9284 mAP50-95=0.6622
+2026-04-02 06:18:32 - YOLO_Resume_Training - INFO - Epoch 286/500 | precision=0.9485 recall=0.8676 mAP50=0.9294 mAP50-95=0.6628
+2026-04-02 06:35:28 - YOLO_Resume_Training - INFO - Epoch 287/500 | precision=0.9493 recall=0.8673 mAP50=0.9292 mAP50-95=0.6626
+2026-04-02 06:52:32 - YOLO_Resume_Training - INFO - Epoch 288/500 | precision=0.9486 recall=0.8668 mAP50=0.9290 mAP50-95=0.6627
+2026-04-02 07:07:29 - YOLO_Resume_Training - INFO - Epoch 289/500 | precision=0.9476 recall=0.8676 mAP50=0.9289 mAP50-95=0.6633
+2026-04-02 07:20:42 - YOLO_Resume_Training - INFO - Epoch 290/500 | precision=0.9499 recall=0.8677 mAP50=0.9292 mAP50-95=0.6631
+2026-04-02 07:33:53 - YOLO_Resume_Training - INFO - Epoch 291/500 | precision=0.9509 recall=0.8669 mAP50=0.9296 mAP50-95=0.6633
+2026-04-02 07:47:07 - YOLO_Resume_Training - INFO - Epoch 292/500 | precision=0.9520 recall=0.8668 mAP50=0.9296 mAP50-95=0.6635
+2026-04-02 08:00:18 - YOLO_Resume_Training - INFO - Epoch 293/500 | precision=0.9518 recall=0.8671 mAP50=0.9301 mAP50-95=0.6638
+2026-04-02 08:14:07 - YOLO_Resume_Training - INFO - Epoch 294/500 | precision=0.9504 recall=0.8672 mAP50=0.9305 mAP50-95=0.6638
+2026-04-02 08:28:34 - YOLO_Resume_Training - INFO - Epoch 295/500 | precision=0.9496 recall=0.8672 mAP50=0.9304 mAP50-95=0.6643
+2026-04-02 08:43:38 - YOLO_Resume_Training - INFO - Epoch 296/500 | precision=0.9512 recall=0.8677 mAP50=0.9309 mAP50-95=0.6640
+2026-04-02 08:58:40 - YOLO_Resume_Training - INFO - Epoch 297/500 | precision=0.9513 recall=0.8681 mAP50=0.9303 mAP50-95=0.6639
+2026-04-02 09:13:41 - YOLO_Resume_Training - INFO - Epoch 298/500 | precision=0.9511 recall=0.8688 mAP50=0.9302 mAP50-95=0.6641
+2026-04-02 09:28:28 - YOLO_Resume_Training - INFO - Epoch 299/500 | precision=0.9503 recall=0.8703 mAP50=0.9305 mAP50-95=0.6643
+2026-04-02 09:43:21 - YOLO_Resume_Training - INFO - Epoch 300/500 | precision=0.9503 recall=0.8716 mAP50=0.9309 mAP50-95=0.6647
+2026-04-02 09:56:13 - YOLO_Resume_Training - INFO - Epoch 301/500 | precision=0.9511 recall=0.8701 mAP50=0.9305 mAP50-95=0.6651
+2026-04-02 10:08:01 - YOLO_Resume_Training - INFO - Epoch 302/500 | precision=0.9501 recall=0.8699 mAP50=0.9305 mAP50-95=0.6653
+2026-04-02 10:20:04 - YOLO_Resume_Training - INFO - Epoch 303/500 | precision=0.9494 recall=0.8709 mAP50=0.9304 mAP50-95=0.6655
+2026-04-02 10:36:11 - YOLO_Resume_Training - INFO - Epoch 304/500 | precision=0.9497 recall=0.8707 mAP50=0.9304 mAP50-95=0.6658
+2026-04-02 10:50:47 - YOLO_Resume_Training - INFO - Epoch 305/500 | precision=0.9502 recall=0.8701 mAP50=0.9302 mAP50-95=0.6660
+2026-04-02 11:05:40 - YOLO_Resume_Training - INFO - Epoch 306/500 | precision=0.9495 recall=0.8699 mAP50=0.9298 mAP50-95=0.6659
+2026-04-02 11:19:40 - YOLO_Resume_Training - INFO - Epoch 307/500 | precision=0.9485 recall=0.8697 mAP50=0.9300 mAP50-95=0.6660
+2026-04-02 11:34:23 - YOLO_Resume_Training - INFO - Epoch 308/500 | precision=0.9476 recall=0.8700 mAP50=0.9300 mAP50-95=0.6663
+2026-04-02 11:48:56 - YOLO_Resume_Training - INFO - Epoch 309/500 | precision=0.9468 recall=0.8697 mAP50=0.9300 mAP50-95=0.6660
+2026-04-02 12:03:22 - YOLO_Resume_Training - INFO - Epoch 310/500 | precision=0.9476 recall=0.8699 mAP50=0.9304 mAP50-95=0.6664
+2026-04-02 12:18:01 - YOLO_Resume_Training - INFO - Epoch 311/500 | precision=0.9476 recall=0.8705 mAP50=0.9304 mAP50-95=0.6663
+2026-04-02 12:32:25 - YOLO_Resume_Training - INFO - Epoch 312/500 | precision=0.9472 recall=0.8702 mAP50=0.9307 mAP50-95=0.6663
+2026-04-02 12:46:25 - YOLO_Resume_Training - INFO - Epoch 313/500 | precision=0.9474 recall=0.8698 mAP50=0.9306 mAP50-95=0.6664
+2026-04-02 13:01:15 - YOLO_Resume_Training - INFO - Epoch 314/500 | precision=0.9474 recall=0.8698 mAP50=0.9304 mAP50-95=0.6665
+2026-04-02 13:15:02 - YOLO_Resume_Training - INFO - Epoch 315/500 | precision=0.9478 recall=0.8695 mAP50=0.9303 mAP50-95=0.6664
+2026-04-02 13:29:54 - YOLO_Resume_Training - INFO - Epoch 316/500 | precision=0.9481 recall=0.8710 mAP50=0.9303 mAP50-95=0.6667
+2026-04-02 13:44:05 - YOLO_Resume_Training - INFO - Epoch 317/500 | precision=0.9477 recall=0.8722 mAP50=0.9305 mAP50-95=0.6661
+2026-04-02 13:57:53 - YOLO_Resume_Training - INFO - Epoch 318/500 | precision=0.9485 recall=0.8688 mAP50=0.9304 mAP50-95=0.6664
+2026-04-02 14:12:36 - YOLO_Resume_Training - INFO - Epoch 319/500 | precision=0.9489 recall=0.8689 mAP50=0.9306 mAP50-95=0.6665
+2026-04-02 14:26:20 - YOLO_Resume_Training - INFO - Epoch 320/500 | precision=0.9491 recall=0.8702 mAP50=0.9307 mAP50-95=0.6663
+2026-04-02 14:41:24 - YOLO_Resume_Training - INFO - Epoch 321/500 | precision=0.9487 recall=0.8705 mAP50=0.9312 mAP50-95=0.6661
+2026-04-02 14:56:10 - YOLO_Resume_Training - INFO - Epoch 322/500 | precision=0.9489 recall=0.8699 mAP50=0.9310 mAP50-95=0.6661
+2026-04-02 15:11:31 - YOLO_Resume_Training - INFO - Epoch 323/500 | precision=0.9488 recall=0.8704 mAP50=0.9311 mAP50-95=0.6663
+2026-04-02 15:25:42 - YOLO_Resume_Training - INFO - Epoch 324/500 | precision=0.9454 recall=0.8748 mAP50=0.9311 mAP50-95=0.6660
+2026-04-02 16:19:32 - YOLO_Resume_Training - INFO - Epoch 325/500 | precision=0.9461 recall=0.8747 mAP50=0.9315 mAP50-95=0.6665
+2026-04-02 16:28:21 - YOLO_Resume_Training - INFO - Epoch 326/500 | precision=0.9453 recall=0.8749 mAP50=0.9314 mAP50-95=0.6667
+2026-04-02 16:37:27 - YOLO_Resume_Training - INFO - Epoch 327/500 | precision=0.9456 recall=0.8749 mAP50=0.9318 mAP50-95=0.6665
+2026-04-02 16:47:49 - YOLO_Resume_Training - INFO - Epoch 328/500 | precision=0.9449 recall=0.8762 mAP50=0.9319 mAP50-95=0.6664
+2026-04-02 16:58:02 - YOLO_Resume_Training - INFO - Epoch 329/500 | precision=0.9462 recall=0.8749 mAP50=0.9318 mAP50-95=0.6667
+2026-04-02 17:08:07 - YOLO_Resume_Training - INFO - Epoch 330/500 | precision=0.9454 recall=0.8739 mAP50=0.9317 mAP50-95=0.6673
+2026-04-02 17:18:25 - YOLO_Resume_Training - INFO - Epoch 331/500 | precision=0.9456 recall=0.8735 mAP50=0.9314 mAP50-95=0.6673
+2026-04-02 17:28:40 - YOLO_Resume_Training - INFO - Epoch 332/500 | precision=0.9446 recall=0.8747 mAP50=0.9313 mAP50-95=0.6671
+2026-04-02 17:39:03 - YOLO_Resume_Training - INFO - Epoch 333/500 | precision=0.9451 recall=0.8734 mAP50=0.9311 mAP50-95=0.6667
+2026-04-02 17:49:47 - YOLO_Resume_Training - INFO - Epoch 334/500 | precision=0.9448 recall=0.8724 mAP50=0.9308 mAP50-95=0.6667
+2026-04-02 18:00:56 - YOLO_Resume_Training - INFO - Epoch 335/500 | precision=0.9458 recall=0.8715 mAP50=0.9309 mAP50-95=0.6667
+2026-04-02 18:12:16 - YOLO_Resume_Training - INFO - Epoch 336/500 | precision=0.9480 recall=0.8708 mAP50=0.9311 mAP50-95=0.6669
+2026-04-02 18:23:25 - YOLO_Resume_Training - INFO - Epoch 337/500 | precision=0.9471 recall=0.8721 mAP50=0.9311 mAP50-95=0.6666
+2026-04-02 18:34:40 - YOLO_Resume_Training - INFO - Epoch 338/500 | precision=0.9481 recall=0.8723 mAP50=0.9314 mAP50-95=0.6670
+2026-04-02 18:46:02 - YOLO_Resume_Training - INFO - Epoch 339/500 | precision=0.9502 recall=0.8714 mAP50=0.9313 mAP50-95=0.6663
+2026-04-02 18:57:20 - YOLO_Resume_Training - INFO - Epoch 340/500 | precision=0.9478 recall=0.8728 mAP50=0.9309 mAP50-95=0.6666
+2026-04-02 19:07:25 - YOLO_Resume_Training - INFO - Epoch 341/500 | precision=0.9482 recall=0.8724 mAP50=0.9310 mAP50-95=0.6664
+2026-04-02 19:16:33 - YOLO_Resume_Training - INFO - Epoch 342/500 | precision=0.9469 recall=0.8731 mAP50=0.9310 mAP50-95=0.6665
+2026-04-02 19:25:23 - YOLO_Resume_Training - INFO - Epoch 343/500 | precision=0.9478 recall=0.8729 mAP50=0.9307 mAP50-95=0.6660
+2026-04-02 19:33:49 - YOLO_Resume_Training - INFO - Epoch 344/500 | precision=0.9474 recall=0.8731 mAP50=0.9307 mAP50-95=0.6660
+2026-04-02 19:42:16 - YOLO_Resume_Training - INFO - Epoch 345/500 | precision=0.9476 recall=0.8733 mAP50=0.9308 mAP50-95=0.6666
+2026-04-02 19:50:43 - YOLO_Resume_Training - INFO - Epoch 346/500 | precision=0.9474 recall=0.8727 mAP50=0.9304 mAP50-95=0.6667
+2026-04-02 19:59:14 - YOLO_Resume_Training - INFO - Epoch 347/500 | precision=0.9468 recall=0.8725 mAP50=0.9303 mAP50-95=0.6663
+2026-04-02 20:07:47 - YOLO_Resume_Training - INFO - Epoch 348/500 | precision=0.9468 recall=0.8724 mAP50=0.9302 mAP50-95=0.6664
+2026-04-02 20:16:18 - YOLO_Resume_Training - INFO - Epoch 349/500 | precision=0.9463 recall=0.8739 mAP50=0.9302 mAP50-95=0.6670
+2026-04-02 20:24:50 - YOLO_Resume_Training - INFO - Epoch 350/500 | precision=0.9461 recall=0.8740 mAP50=0.9303 mAP50-95=0.6673
+2026-04-02 20:33:20 - YOLO_Resume_Training - INFO - Epoch 351/500 | precision=0.9444 recall=0.8757 mAP50=0.9305 mAP50-95=0.6671
+2026-04-02 20:41:52 - YOLO_Resume_Training - INFO - Epoch 352/500 | precision=0.9451 recall=0.8755 mAP50=0.9307 mAP50-95=0.6675
+2026-04-02 20:50:25 - YOLO_Resume_Training - INFO - Epoch 353/500 | precision=0.9449 recall=0.8758 mAP50=0.9309 mAP50-95=0.6677
+2026-04-02 20:58:57 - YOLO_Resume_Training - INFO - Epoch 354/500 | precision=0.9444 recall=0.8756 mAP50=0.9308 mAP50-95=0.6673
+2026-04-02 21:07:30 - YOLO_Resume_Training - INFO - Epoch 355/500 | precision=0.9463 recall=0.8754 mAP50=0.9311 mAP50-95=0.6679
+2026-04-02 21:16:07 - YOLO_Resume_Training - INFO - Epoch 356/500 | precision=0.9461 recall=0.8747 mAP50=0.9309 mAP50-95=0.6677
+2026-04-02 21:25:34 - YOLO_Resume_Training - INFO - Epoch 357/500 | precision=0.9465 recall=0.8743 mAP50=0.9310 mAP50-95=0.6680
+2026-04-02 21:34:35 - YOLO_Resume_Training - INFO - Epoch 358/500 | precision=0.9461 recall=0.8747 mAP50=0.9312 mAP50-95=0.6685
+2026-04-02 21:43:43 - YOLO_Resume_Training - INFO - Epoch 359/500 | precision=0.9472 recall=0.8734 mAP50=0.9311 mAP50-95=0.6684
+2026-04-02 21:52:36 - YOLO_Resume_Training - INFO - Epoch 360/500 | precision=0.9466 recall=0.8734 mAP50=0.9310 mAP50-95=0.6681
+2026-04-02 22:01:32 - YOLO_Resume_Training - INFO - Epoch 361/500 | precision=0.9463 recall=0.8739 mAP50=0.9310 mAP50-95=0.6685
+2026-04-02 22:10:26 - YOLO_Resume_Training - INFO - Epoch 362/500 | precision=0.9461 recall=0.8749 mAP50=0.9313 mAP50-95=0.6686
+2026-04-02 22:19:20 - YOLO_Resume_Training - INFO - Epoch 363/500 | precision=0.9456 recall=0.8764 mAP50=0.9316 mAP50-95=0.6686
+2026-04-02 22:29:34 - YOLO_Resume_Training - INFO - Epoch 364/500 | precision=0.9456 recall=0.8762 mAP50=0.9317 mAP50-95=0.6682
+2026-04-02 22:41:21 - YOLO_Resume_Training - INFO - Epoch 365/500 | precision=0.9453 recall=0.8779 mAP50=0.9317 mAP50-95=0.6685
+2026-04-02 22:53:17 - YOLO_Resume_Training - INFO - Epoch 366/500 | precision=0.9450 recall=0.8780 mAP50=0.9316 mAP50-95=0.6685
+2026-04-02 23:05:15 - YOLO_Resume_Training - INFO - Epoch 367/500 | precision=0.9445 recall=0.8780 mAP50=0.9316 mAP50-95=0.6690
+2026-04-02 23:16:24 - YOLO_Resume_Training - INFO - Epoch 368/500 | precision=0.9432 recall=0.8786 mAP50=0.9313 mAP50-95=0.6689
+2026-04-02 23:27:46 - YOLO_Resume_Training - INFO - Epoch 369/500 | precision=0.9412 recall=0.8785 mAP50=0.9313 mAP50-95=0.6692
+2026-04-02 23:39:07 - YOLO_Resume_Training - INFO - Epoch 370/500 | precision=0.9426 recall=0.8788 mAP50=0.9315 mAP50-95=0.6691
+2026-04-02 23:50:09 - YOLO_Resume_Training - INFO - Epoch 371/500 | precision=0.9427 recall=0.8789 mAP50=0.9316 mAP50-95=0.6690
+2026-04-02 23:58:59 - YOLO_Resume_Training - INFO - Epoch 372/500 | precision=0.9426 recall=0.8791 mAP50=0.9319 mAP50-95=0.6692
+2026-04-03 00:08:02 - YOLO_Resume_Training - INFO - Epoch 373/500 | precision=0.9443 recall=0.8782 mAP50=0.9318 mAP50-95=0.6690
+2026-04-03 00:18:12 - YOLO_Resume_Training - INFO - Epoch 374/500 | precision=0.9446 recall=0.8781 mAP50=0.9320 mAP50-95=0.6694
+2026-04-03 00:29:49 - YOLO_Resume_Training - INFO - Epoch 375/500 | precision=0.9448 recall=0.8774 mAP50=0.9320 mAP50-95=0.6695
+2026-04-03 00:41:18 - YOLO_Resume_Training - INFO - Epoch 376/500 | precision=0.9447 recall=0.8775 mAP50=0.9321 mAP50-95=0.6698
+2026-04-03 00:52:44 - YOLO_Resume_Training - INFO - Epoch 377/500 | precision=0.9436 recall=0.8769 mAP50=0.9324 mAP50-95=0.6701
+2026-04-03 01:02:52 - YOLO_Resume_Training - INFO - Epoch 378/500 | precision=0.9430 recall=0.8776 mAP50=0.9325 mAP50-95=0.6701
+2026-04-03 01:11:40 - YOLO_Resume_Training - INFO - Epoch 379/500 | precision=0.9445 recall=0.8773 mAP50=0.9328 mAP50-95=0.6702
+2026-04-03 01:20:38 - YOLO_Resume_Training - INFO - Epoch 380/500 | precision=0.9448 recall=0.8772 mAP50=0.9323 mAP50-95=0.6697
+2026-04-03 01:29:29 - YOLO_Resume_Training - INFO - Epoch 381/500 | precision=0.9448 recall=0.8768 mAP50=0.9324 mAP50-95=0.6698
+2026-04-03 01:38:20 - YOLO_Resume_Training - INFO - Epoch 382/500 | precision=0.9446 recall=0.8771 mAP50=0.9325 mAP50-95=0.6702
+2026-04-03 01:48:16 - YOLO_Resume_Training - INFO - Epoch 383/500 | precision=0.9445 recall=0.8758 mAP50=0.9325 mAP50-95=0.6701
+2026-04-03 01:57:51 - YOLO_Resume_Training - INFO - Epoch 384/500 | precision=0.9458 recall=0.8779 mAP50=0.9329 mAP50-95=0.6704
+2026-04-03 02:11:55 - YOLO_Resume_Training - INFO - Epoch 385/500 | precision=0.9446 recall=0.8773 mAP50=0.9326 mAP50-95=0.6705
+2026-04-03 02:26:43 - YOLO_Resume_Training - INFO - Epoch 386/500 | precision=0.9447 recall=0.8763 mAP50=0.9324 mAP50-95=0.6705
+2026-04-03 02:41:21 - YOLO_Resume_Training - INFO - Epoch 387/500 | precision=0.9452 recall=0.8774 mAP50=0.9325 mAP50-95=0.6707
+2026-04-03 02:56:29 - YOLO_Resume_Training - INFO - Epoch 388/500 | precision=0.9452 recall=0.8771 mAP50=0.9320 mAP50-95=0.6707
+2026-04-03 03:11:19 - YOLO_Resume_Training - INFO - Epoch 389/500 | precision=0.9456 recall=0.8775 mAP50=0.9320 mAP50-95=0.6708
+2026-04-03 03:25:56 - YOLO_Resume_Training - INFO - Epoch 390/500 | precision=0.9452 recall=0.8773 mAP50=0.9316 mAP50-95=0.6709
+2026-04-03 03:40:29 - YOLO_Resume_Training - INFO - Epoch 391/500 | precision=0.9451 recall=0.8776 mAP50=0.9319 mAP50-95=0.6711
+2026-04-03 03:54:51 - YOLO_Resume_Training - INFO - Epoch 392/500 | precision=0.9457 recall=0.8777 mAP50=0.9322 mAP50-95=0.6712
+2026-04-03 04:09:16 - YOLO_Resume_Training - INFO - Epoch 393/500 | precision=0.9454 recall=0.8774 mAP50=0.9322 mAP50-95=0.6717
+2026-04-03 04:23:30 - YOLO_Resume_Training - INFO - Epoch 394/500 | precision=0.9460 recall=0.8768 mAP50=0.9322 mAP50-95=0.6714
+2026-04-03 04:38:09 - YOLO_Resume_Training - INFO - Epoch 395/500 | precision=0.9454 recall=0.8766 mAP50=0.9320 mAP50-95=0.6716
+2026-04-03 04:52:57 - YOLO_Resume_Training - INFO - Epoch 396/500 | precision=0.9454 recall=0.8767 mAP50=0.9314 mAP50-95=0.6715
+2026-04-03 05:07:53 - YOLO_Resume_Training - INFO - Epoch 397/500 | precision=0.9457 recall=0.8774 mAP50=0.9314 mAP50-95=0.6712
+2026-04-03 05:22:49 - YOLO_Resume_Training - INFO - Epoch 398/500 | precision=0.9468 recall=0.8777 mAP50=0.9318 mAP50-95=0.6715
+2026-04-03 05:37:31 - YOLO_Resume_Training - INFO - Epoch 399/500 | precision=0.9452 recall=0.8767 mAP50=0.9314 mAP50-95=0.6711
+2026-04-03 05:51:40 - YOLO_Resume_Training - INFO - Epoch 400/500 | precision=0.9463 recall=0.8768 mAP50=0.9314 mAP50-95=0.6710
+2026-04-03 06:05:53 - YOLO_Resume_Training - INFO - Epoch 401/500 | precision=0.9454 recall=0.8768 mAP50=0.9311 mAP50-95=0.6707
+2026-04-03 06:20:05 - YOLO_Resume_Training - INFO - Epoch 402/500 | precision=0.9461 recall=0.8766 mAP50=0.9309 mAP50-95=0.6703
+2026-04-03 06:34:12 - YOLO_Resume_Training - INFO - Epoch 403/500 | precision=0.9454 recall=0.8766 mAP50=0.9311 mAP50-95=0.6707
+2026-04-03 06:48:18 - YOLO_Resume_Training - INFO - Epoch 404/500 | precision=0.9458 recall=0.8761 mAP50=0.9311 mAP50-95=0.6711
+2026-04-03 07:02:19 - YOLO_Resume_Training - INFO - Epoch 405/500 | precision=0.9448 recall=0.8758 mAP50=0.9308 mAP50-95=0.6716
+2026-04-03 07:16:36 - YOLO_Resume_Training - INFO - Epoch 406/500 | precision=0.9443 recall=0.8762 mAP50=0.9308 mAP50-95=0.6715
+2026-04-03 07:30:36 - YOLO_Resume_Training - INFO - Epoch 407/500 | precision=0.9446 recall=0.8761 mAP50=0.9309 mAP50-95=0.6716
+2026-04-03 07:44:48 - YOLO_Resume_Training - INFO - Epoch 408/500 | precision=0.9440 recall=0.8776 mAP50=0.9307 mAP50-95=0.6718
+2026-04-03 07:58:52 - YOLO_Resume_Training - INFO - Epoch 409/500 | precision=0.9440 recall=0.8776 mAP50=0.9305 mAP50-95=0.6718
+2026-04-03 08:13:19 - YOLO_Resume_Training - INFO - Epoch 410/500 | precision=0.9442 recall=0.8768 mAP50=0.9307 mAP50-95=0.6713
+2026-04-03 08:27:40 - YOLO_Resume_Training - INFO - Epoch 411/500 | precision=0.9451 recall=0.8772 mAP50=0.9310 mAP50-95=0.6715
+2026-04-03 08:41:56 - YOLO_Resume_Training - INFO - Epoch 412/500 | precision=0.9449 recall=0.8770 mAP50=0.9309 mAP50-95=0.6715
+2026-04-03 08:55:41 - YOLO_Resume_Training - INFO - Epoch 413/500 | precision=0.9456 recall=0.8772 mAP50=0.9312 mAP50-95=0.6716
+2026-04-03 09:09:45 - YOLO_Resume_Training - INFO - Epoch 414/500 | precision=0.9440 recall=0.8761 mAP50=0.9307 mAP50-95=0.6714
+2026-04-03 09:23:38 - YOLO_Resume_Training - INFO - Epoch 415/500 | precision=0.9449 recall=0.8753 mAP50=0.9308 mAP50-95=0.6714
+2026-04-03 09:37:53 - YOLO_Resume_Training - INFO - Epoch 416/500 | precision=0.9453 recall=0.8753 mAP50=0.9307 mAP50-95=0.6715
+2026-04-03 09:51:29 - YOLO_Resume_Training - INFO - Epoch 417/500 | precision=0.9447 recall=0.8749 mAP50=0.9307 mAP50-95=0.6711
+2026-04-03 10:05:45 - YOLO_Resume_Training - INFO - Epoch 418/500 | precision=0.9442 recall=0.8753 mAP50=0.9306 mAP50-95=0.6713
+2026-04-03 10:19:25 - YOLO_Resume_Training - INFO - Epoch 419/500 | precision=0.9437 recall=0.8745 mAP50=0.9298 mAP50-95=0.6709
+2026-04-03 10:32:58 - YOLO_Resume_Training - INFO - Epoch 420/500 | precision=0.9442 recall=0.8757 mAP50=0.9301 mAP50-95=0.6714
+2026-04-03 10:49:27 - YOLO_Resume_Training - INFO - Epoch 421/500 | precision=0.9421 recall=0.8759 mAP50=0.9297 mAP50-95=0.6716
+2026-04-03 11:06:34 - YOLO_Resume_Training - INFO - Epoch 422/500 | precision=0.9412 recall=0.8767 mAP50=0.9295 mAP50-95=0.6712
+2026-04-03 11:19:55 - YOLO_Resume_Training - INFO - Epoch 423/500 | precision=0.9415 recall=0.8770 mAP50=0.9296 mAP50-95=0.6709
+2026-04-03 11:31:06 - YOLO_Resume_Training - INFO - Epoch 424/500 | precision=0.9418 recall=0.8768 mAP50=0.9295 mAP50-95=0.6711
+2026-04-03 11:42:01 - YOLO_Resume_Training - INFO - Epoch 425/500 | precision=0.9418 recall=0.8751 mAP50=0.9293 mAP50-95=0.6714
+2026-04-03 11:53:10 - YOLO_Resume_Training - INFO - Epoch 426/500 | precision=0.9425 recall=0.8750 mAP50=0.9291 mAP50-95=0.6714
+2026-04-03 12:04:41 - YOLO_Resume_Training - INFO - Epoch 427/500 | precision=0.9425 recall=0.8759 mAP50=0.9295 mAP50-95=0.6716
+2026-04-03 12:17:00 - YOLO_Resume_Training - INFO - Epoch 428/500 | precision=0.9424 recall=0.8759 mAP50=0.9292 mAP50-95=0.6715
+2026-04-03 12:30:36 - YOLO_Resume_Training - INFO - Epoch 429/500 | precision=0.9426 recall=0.8747 mAP50=0.9291 mAP50-95=0.6711
+2026-04-03 12:41:19 - YOLO_Resume_Training - INFO - Epoch 430/500 | precision=0.9404 recall=0.8772 mAP50=0.9292 mAP50-95=0.6716
+2026-04-03 12:52:02 - YOLO_Resume_Training - INFO - Epoch 431/500 | precision=0.9410 recall=0.8758 mAP50=0.9292 mAP50-95=0.6716
+2026-04-03 13:02:51 - YOLO_Resume_Training - INFO - Epoch 432/500 | precision=0.9414 recall=0.8761 mAP50=0.9293 mAP50-95=0.6715
+2026-04-03 13:14:09 - YOLO_Resume_Training - INFO - Epoch 433/500 | precision=0.9420 recall=0.8742 mAP50=0.9293 mAP50-95=0.6709
+2026-04-03 13:25:47 - YOLO_Resume_Training - INFO - Epoch 434/500 | precision=0.9399 recall=0.8747 mAP50=0.9290 mAP50-95=0.6710
+2026-04-03 13:36:46 - YOLO_Resume_Training - INFO - Epoch 435/500 | precision=0.9409 recall=0.8749 mAP50=0.9292 mAP50-95=0.6714
+2026-04-03 13:48:08 - YOLO_Resume_Training - INFO - Epoch 436/500 | precision=0.9415 recall=0.8740 mAP50=0.9295 mAP50-95=0.6716
+2026-04-03 13:59:08 - YOLO_Resume_Training - INFO - Epoch 437/500 | precision=0.9492 recall=0.8683 mAP50=0.9299 mAP50-95=0.6717
+2026-04-03 14:10:07 - YOLO_Resume_Training - INFO - Epoch 438/500 | precision=0.9423 recall=0.8745 mAP50=0.9299 mAP50-95=0.6716
+2026-04-03 14:21:11 - YOLO_Resume_Training - INFO - Epoch 439/500 | precision=0.9431 recall=0.8722 mAP50=0.9296 mAP50-95=0.6720
+2026-04-03 14:32:10 - YOLO_Resume_Training - INFO - Epoch 440/500 | precision=0.9492 recall=0.8671 mAP50=0.9292 mAP50-95=0.6713
+2026-04-03 14:43:10 - YOLO_Resume_Training - INFO - Epoch 441/500 | precision=0.9512 recall=0.8661 mAP50=0.9292 mAP50-95=0.6712
+2026-04-03 14:54:18 - YOLO_Resume_Training - INFO - Epoch 442/500 | precision=0.9526 recall=0.8657 mAP50=0.9291 mAP50-95=0.6711
+2026-04-03 15:05:23 - YOLO_Resume_Training - INFO - Epoch 443/500 | precision=0.9542 recall=0.8644 mAP50=0.9289 mAP50-95=0.6711
+2026-04-03 15:16:50 - YOLO_Resume_Training - INFO - Epoch 444/500 | precision=0.9527 recall=0.8659 mAP50=0.9292 mAP50-95=0.6714
+2026-04-03 15:28:36 - YOLO_Resume_Training - INFO - Epoch 445/500 | precision=0.9549 recall=0.8653 mAP50=0.9292 mAP50-95=0.6714
+2026-04-03 15:39:43 - YOLO_Resume_Training - INFO - Epoch 446/500 | precision=0.9519 recall=0.8653 mAP50=0.9290 mAP50-95=0.6711
+2026-04-03 15:50:54 - YOLO_Resume_Training - INFO - Epoch 447/500 | precision=0.9536 recall=0.8649 mAP50=0.9290 mAP50-95=0.6710
+2026-04-03 16:02:13 - YOLO_Resume_Training - INFO - Epoch 448/500 | precision=0.9517 recall=0.8653 mAP50=0.9288 mAP50-95=0.6711
+2026-04-03 16:13:31 - YOLO_Resume_Training - INFO - Epoch 449/500 | precision=0.9525 recall=0.8655 mAP50=0.9288 mAP50-95=0.6711
+2026-04-03 16:24:28 - YOLO_Resume_Training - INFO - Epoch 450/500 | precision=0.9505 recall=0.8651 mAP50=0.9282 mAP50-95=0.6713
+2026-04-03 16:35:51 - YOLO_Resume_Training - INFO - Epoch 451/500 | precision=0.9513 recall=0.8659 mAP50=0.9285 mAP50-95=0.6713
+2026-04-03 16:47:01 - YOLO_Resume_Training - INFO - Epoch 452/500 | precision=0.9519 recall=0.8666 mAP50=0.9287 mAP50-95=0.6713
+2026-04-03 16:58:07 - YOLO_Resume_Training - INFO - Epoch 453/500 | precision=0.9524 recall=0.8659 mAP50=0.9290 mAP50-95=0.6711
+2026-04-03 17:09:15 - YOLO_Resume_Training - INFO - Epoch 454/500 | precision=0.9519 recall=0.8666 mAP50=0.9294 mAP50-95=0.6711
+2026-04-03 17:20:17 - YOLO_Resume_Training - INFO - Epoch 455/500 | precision=0.9521 recall=0.8659 mAP50=0.9287 mAP50-95=0.6715
+2026-04-03 17:31:28 - YOLO_Resume_Training - INFO - Epoch 456/500 | precision=0.9548 recall=0.8632 mAP50=0.9282 mAP50-95=0.6714
+2026-04-03 17:48:17 - YOLO_Resume_Training - INFO - Epoch 457/500 | precision=0.9546 recall=0.8640 mAP50=0.9281 mAP50-95=0.6713
+2026-04-03 18:25:24 - YOLO_Resume_Training - INFO - Epoch 458/500 | precision=0.9544 recall=0.8656 mAP50=0.9287 mAP50-95=0.6719
+2026-04-03 18:48:50 - YOLO_Resume_Training - INFO - Epoch 459/500 | precision=0.9540 recall=0.8658 mAP50=0.9284 mAP50-95=0.6721
+2026-04-03 18:59:57 - YOLO_Resume_Training - INFO - Epoch 460/500 | precision=0.9558 recall=0.8641 mAP50=0.9288 mAP50-95=0.6724
+2026-04-03 19:10:57 - YOLO_Resume_Training - INFO - Epoch 461/500 | precision=0.9556 recall=0.8651 mAP50=0.9287 mAP50-95=0.6722
+2026-04-03 19:21:53 - YOLO_Resume_Training - INFO - Epoch 462/500 | precision=0.9561 recall=0.8655 mAP50=0.9290 mAP50-95=0.6717
+2026-04-03 19:33:10 - YOLO_Resume_Training - INFO - Epoch 463/500 | precision=0.9564 recall=0.8652 mAP50=0.9290 mAP50-95=0.6720
+2026-04-03 19:46:21 - YOLO_Resume_Training - INFO - Epoch 464/500 | precision=0.9566 recall=0.8642 mAP50=0.9287 mAP50-95=0.6719
+2026-04-03 19:59:28 - YOLO_Resume_Training - INFO - Epoch 465/500 | precision=0.9560 recall=0.8647 mAP50=0.9288 mAP50-95=0.6720
+2026-04-03 20:11:53 - YOLO_Resume_Training - INFO - Epoch 466/500 | precision=0.9559 recall=0.8648 mAP50=0.9286 mAP50-95=0.6720
+2026-04-03 20:23:00 - YOLO_Resume_Training - INFO - Epoch 467/500 | precision=0.9548 recall=0.8651 mAP50=0.9291 mAP50-95=0.6721
+2026-04-03 20:34:15 - YOLO_Resume_Training - INFO - Epoch 468/500 | precision=0.9563 recall=0.8646 mAP50=0.9294 mAP50-95=0.6725
+2026-04-03 20:46:51 - YOLO_Resume_Training - INFO - Epoch 469/500 | precision=0.9551 recall=0.8652 mAP50=0.9293 mAP50-95=0.6723
+2026-04-03 21:00:04 - YOLO_Resume_Training - INFO - Epoch 470/500 | precision=0.9557 recall=0.8656 mAP50=0.9296 mAP50-95=0.6725
+2026-04-03 21:13:27 - YOLO_Resume_Training - INFO - Epoch 471/500 | precision=0.9602 recall=0.8646 mAP50=0.9296 mAP50-95=0.6722
+2026-04-03 21:26:53 - YOLO_Resume_Training - INFO - Epoch 472/500 | precision=0.9570 recall=0.8653 mAP50=0.9292 mAP50-95=0.6721
+2026-04-03 21:40:09 - YOLO_Resume_Training - INFO - Epoch 473/500 | precision=0.9612 recall=0.8646 mAP50=0.9296 mAP50-95=0.6723
+2026-04-03 21:53:23 - YOLO_Resume_Training - INFO - Epoch 474/500 | precision=0.9605 recall=0.8648 mAP50=0.9297 mAP50-95=0.6725
+2026-04-03 22:06:45 - YOLO_Resume_Training - INFO - Epoch 475/500 | precision=0.9606 recall=0.8649 mAP50=0.9297 mAP50-95=0.6725
+2026-04-03 22:20:26 - YOLO_Resume_Training - INFO - Epoch 476/500 | precision=0.9604 recall=0.8649 mAP50=0.9297 mAP50-95=0.6720
+2026-04-03 22:34:05 - YOLO_Resume_Training - INFO - Epoch 477/500 | precision=0.9607 recall=0.8653 mAP50=0.9300 mAP50-95=0.6721
+2026-04-03 22:47:51 - YOLO_Resume_Training - INFO - Epoch 478/500 | precision=0.9614 recall=0.8659 mAP50=0.9302 mAP50-95=0.6718
+2026-04-03 23:07:19 - YOLO_Resume_Training - INFO - Epoch 479/500 | precision=0.9613 recall=0.8657 mAP50=0.9303 mAP50-95=0.6719
+2026-04-03 23:28:39 - YOLO_Resume_Training - INFO - Epoch 480/500 | precision=0.9619 recall=0.8650 mAP50=0.9302 mAP50-95=0.6721
+2026-04-03 23:49:34 - YOLO_Resume_Training - INFO - Epoch 481/500 | precision=0.9613 recall=0.8656 mAP50=0.9302 mAP50-95=0.6722
+2026-04-04 00:11:18 - YOLO_Resume_Training - INFO - Epoch 482/500 | precision=0.9613 recall=0.8652 mAP50=0.9299 mAP50-95=0.6721
+2026-04-04 00:32:46 - YOLO_Resume_Training - INFO - Epoch 483/500 | precision=0.9613 recall=0.8655 mAP50=0.9302 mAP50-95=0.6720
+2026-04-04 00:55:14 - YOLO_Resume_Training - INFO - Epoch 484/500 | precision=0.9620 recall=0.8665 mAP50=0.9306 mAP50-95=0.6729
+2026-04-04 01:16:57 - YOLO_Resume_Training - INFO - Epoch 485/500 | precision=0.9610 recall=0.8670 mAP50=0.9305 mAP50-95=0.6728
+2026-04-04 01:38:52 - YOLO_Resume_Training - INFO - Epoch 486/500 | precision=0.9610 recall=0.8668 mAP50=0.9304 mAP50-95=0.6726
+2026-04-04 02:01:24 - YOLO_Resume_Training - INFO - Epoch 487/500 | precision=0.9591 recall=0.8678 mAP50=0.9304 mAP50-95=0.6729
+2026-04-04 02:23:39 - YOLO_Resume_Training - INFO - Epoch 488/500 | precision=0.9595 recall=0.8682 mAP50=0.9306 mAP50-95=0.6731
+2026-04-04 02:46:20 - YOLO_Resume_Training - INFO - Epoch 489/500 | precision=0.9593 recall=0.8682 mAP50=0.9305 mAP50-95=0.6727
+2026-04-04 03:09:05 - YOLO_Resume_Training - INFO - Epoch 490/500 | precision=0.9631 recall=0.8660 mAP50=0.9305 mAP50-95=0.6726
+2026-04-04 03:32:00 - YOLO_Resume_Training - INFO - Epoch 491/500 | precision=0.9625 recall=0.8661 mAP50=0.9304 mAP50-95=0.6729
+2026-04-04 03:55:12 - YOLO_Resume_Training - INFO - Epoch 492/500 | precision=0.9620 recall=0.8670 mAP50=0.9305 mAP50-95=0.6732
+2026-04-04 04:17:53 - YOLO_Resume_Training - INFO - Epoch 493/500 | precision=0.9627 recall=0.8669 mAP50=0.9308 mAP50-95=0.6731
+2026-04-04 04:41:04 - YOLO_Resume_Training - INFO - Epoch 494/500 | precision=0.9599 recall=0.8685 mAP50=0.9308 mAP50-95=0.6732
+2026-04-04 05:03:46 - YOLO_Resume_Training - INFO - Epoch 495/500 | precision=0.9607 recall=0.8682 mAP50=0.9307 mAP50-95=0.6733
+2026-04-04 05:25:56 - YOLO_Resume_Training - INFO - Epoch 496/500 | precision=0.9627 recall=0.8668 mAP50=0.9304 mAP50-95=0.6727
+2026-04-04 05:48:16 - YOLO_Resume_Training - INFO - Epoch 497/500 | precision=0.9615 recall=0.8672 mAP50=0.9304 mAP50-95=0.6729
+2026-04-04 06:10:36 - YOLO_Resume_Training - INFO - Epoch 498/500 | precision=0.9620 recall=0.8661 mAP50=0.9303 mAP50-95=0.6726
+2026-04-04 06:33:03 - YOLO_Resume_Training - INFO - Epoch 499/500 | precision=0.9626 recall=0.8664 mAP50=0.9301 mAP50-95=0.6726
+2026-04-04 06:54:46 - YOLO_Resume_Training - INFO - Epoch 500/500 | precision=0.9622 recall=0.8666 mAP50=0.9305 mAP50-95=0.6726
+2026-04-04 06:56:25 - YOLO_Resume_Training - INFO - Epoch 500/500 | precision=0.9605 recall=0.8682 mAP50=0.9305 mAP50-95=0.6727
+2026-04-04 06:56:30 - YOLO_Resume_Training - INFO - Resume training finished. Running evaluation on best checkpoint if available.
+2026-04-04 06:57:42 - YOLO_Resume_Training - INFO - mAP50: 0.9306
+2026-04-04 06:57:42 - YOLO_Resume_Training - INFO - mAP50-95: 0.6739
+2026-04-04 06:57:42 - YOLO_Resume_Training - INFO - ======================================================================
+2026-04-04 06:57:42 - YOLO_Resume_Training - INFO - RESUME PIPELINE COMPLETED
+2026-04-04 06:57:42 - YOLO_Resume_Training - INFO - ======================================================================

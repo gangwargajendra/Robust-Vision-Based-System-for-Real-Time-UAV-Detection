@@ -1,0 +1,29 @@
+% =====================================================================
+%  Standalone LaTeX tables for the end-sem presentation slides.
+%  Compile with:  pdflatex presentation_tables.tex
+%  Then screenshot / crop each table and paste into PowerPoint.
+% =====================================================================
+\documentclass[border=10pt]{standalone}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+
+\begin{document}
+
+% =====================================================================
+%  TABLE 1 — Comparison of 6 candidate detectors  (Slide 2)
+% =====================================================================
+\begin{tabular}{lccccl}
+\toprule
+\textbf{Model} & \textbf{Params (M)} & \textbf{Speed} & \textbf{Small-obj} & \textbf{Tooling} & \textbf{Key Feature} \\
+\midrule
+YOLOv9              & $\sim$25         & High      & Medium    & High        & PGI + GELAN backbone \\
+\textbf{YOLO11-nano}& \textbf{$\sim$2.6}& \textbf{Very high} & \textbf{High} & \textbf{Very high} & \textbf{C2PSA attention} \\
+RT-DETR             & $\sim$32         & Medium    & High      & Medium      & Transformer, no NMS \\
+YOLO26              & $\sim$3          & Very high & Very high & Low (new)   & End-to-end CPU inference \\
+NSSRD               & HW-tuned         & Medium    & Very high & Low         & NAS, coarse-to-fine \\
+ED-Net              & $\sim$5          & High      & Very high & Low         & Dedicated XSmall head \\
+\bottomrule
+\end{tabular}
+
+\end{document}

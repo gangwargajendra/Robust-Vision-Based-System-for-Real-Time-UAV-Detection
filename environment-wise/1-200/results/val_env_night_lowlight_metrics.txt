@@ -1,0 +1,7 @@
+NIGHT_LOWLIGHT VALIDATION
+=========================
+YAML: /home/btech/2023/piyush.kumar23b/gajendra/code/environment-wise/intermediate/data_val_night_lowlight.yaml
+Precision: 0.951911
+Recall: 0.870985
+mAP50: 0.946090
+mAP50-95: 0.624622

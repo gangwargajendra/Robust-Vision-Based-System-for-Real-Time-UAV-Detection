@@ -1,0 +1,45 @@
+DISTANCE-WISE VALIDATION (SPLIT DATASETS)
+=========================================
+Model: /home/btech/2023/piyush.kumar23b/gajendra/code/runs/detect/weights/best.pt
+Device: 0
+Generated at: 2026-04-20T01:25:47
+
+CLOSE VALIDATION
+------------------------------
+YAML: /home/btech/2023/piyush.kumar23b/gajendra/code/distance-wise/intermediate/data_val_close.yaml
+Precision: 0.953345
+Recall: 0.885150
+mAP50: 0.953423
+mAP50-95: 0.832208
+
+MEDIUM VALIDATION
+------------------------------
+YAML: /home/btech/2023/piyush.kumar23b/gajendra/code/distance-wise/intermediate/data_val_medium.yaml
+Precision: 0.984306
+Recall: 0.968981
+mAP50: 0.988874
+mAP50-95: 0.800337
+
+FAR VALIDATION
+------------------------------
+YAML: /home/btech/2023/piyush.kumar23b/gajendra/code/distance-wise/intermediate/data_val_far.yaml
+Precision: 0.949582
+Recall: 0.847886
+mAP50: 0.906586
+mAP50-95: 0.550181
+
+MIXED VALIDATION
+------------------------------
+YAML: /home/btech/2023/piyush.kumar23b/gajendra/code/distance-wise/intermediate/data_val_mixed.yaml
+Precision: 0.957935
+Recall: 0.880967
+mAP50: 0.927276
+mAP50-95: 0.724901
+
+EMPTY VALIDATION
+------------------------------
+YAML: /home/btech/2023/piyush.kumar23b/gajendra/code/distance-wise/intermediate/data_val_empty.yaml
+Precision: 0.000000
+Recall: 0.000000
+mAP50: 0.000000
+mAP50-95: 0.000000

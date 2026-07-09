@@ -1,0 +1,20 @@
+DISTANCE-WISE ANALYSIS REPORT
+============================
+data.yaml: /home/btech/2023/piyush.kumar23b/gajendra/code/data.yaml
+dataset root: /home/btech/2023/piyush.kumar23b/gajendra/dataset/nondrone_copy
+label dir: /home/btech/2023/piyush.kumar23b/gajendra/dataset/nondrone_copy/labels/val
+
+IMAGE DISTRIBUTION
+------------------
+pure_close: 460
+pure_medium: 521
+pure_far: 1471
+mixed: 86
+empty: 1
+
+OBJECT COUNTS
+-------------
+close: 506
+medium: 699
+far: 2354
+total: 3559

@@ -1,0 +1,26 @@
+ENVIRONMENT-WISE VALIDATION ANALYSIS REPORT
+===========================================
+data.yaml: /home/btech/2023/piyush.kumar23b/gajendra/code/data.yaml
+val dir: /home/btech/2023/piyush.kumar23b/gajendra/dataset/nondrone_copy/images/val
+processed images: 2539
+failed reads: 0
+processing time: 243.8 seconds
+throughput: 10.4 images/sec
+
+CATEGORY COUNTS
+---------------
+bright_clear: 682
+night_lowlight: 584
+cluttered_ambiguous: 1273
+
+CATEGORY PERCENTAGES
+--------------------
+bright_clear: 26.86%
+night_lowlight: 23.00%
+cluttered_ambiguous: 50.14%
+
+GLOBAL IMAGE STATISTICS (MEAN)
+------------------------------
+mean_luma: 117.17
+std_luma: 31.93
+edge_density: 0.0842

@@ -1,0 +1,7 @@
+path: /home/btech/2023/piyush.kumar23b/gajendra/dataset/nondrone_copy
+train: images/train
+nc: 2
+names:
+  0: nondrone
+  1: drone
+val: distance-wise/images/val_far

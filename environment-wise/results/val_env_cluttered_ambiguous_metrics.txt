@@ -1,0 +1,7 @@
+CLUTTERED_AMBIGUOUS VALIDATION
+==============================
+YAML: data_val_cluttered_ambiguous.yaml
+Precision: 0.954697
+Recall: 0.846763
+mAP50: 0.915757
+mAP50-95: 0.609841

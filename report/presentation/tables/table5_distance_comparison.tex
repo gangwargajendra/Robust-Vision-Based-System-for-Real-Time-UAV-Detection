@@ -1,0 +1,21 @@
+% =====================================================================
+%  TABLE 5 — Distance-wise comparison: Existing vs YOLO11-nano
+%  Existing model reports confidence-score range; this work reports
+%  Precision, Recall and mAP@50 (Phase 2).
+% =====================================================================
+\documentclass[border=10pt]{standalone}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{tabular}{lc}
+\toprule
+\textbf{Distance subset} & \textbf{Confidence score} \\
+\midrule
+Close-range               & 0.93 -- 1.00 \\
+Mid-range                 & 0.90 -- 0.96 \\
+Long-range (very far)     & 0.70 -- 0.78 \\
+\bottomrule
+\end{tabular}
+
+\end{document}

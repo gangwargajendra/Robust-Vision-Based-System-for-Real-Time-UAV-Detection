@@ -1,0 +1,7 @@
+FAR VALIDATION
+==============
+YAML: /home/btech/2023/piyush.kumar23b/gajendra/code/distance-wise/intermediate/data_val_far.yaml
+Precision: 0.949582
+Recall: 0.847886
+mAP50: 0.906586
+mAP50-95: 0.550181

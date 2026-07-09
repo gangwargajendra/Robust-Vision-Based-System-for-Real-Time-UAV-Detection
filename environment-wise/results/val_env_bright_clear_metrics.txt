@@ -1,0 +1,7 @@
+BRIGHT_CLEAR VALIDATION
+=======================
+YAML: data_val_bright_clear.yaml
+Precision: 0.968106
+Recall: 0.893259
+mAP50: 0.946287
+mAP50-95: 0.734200

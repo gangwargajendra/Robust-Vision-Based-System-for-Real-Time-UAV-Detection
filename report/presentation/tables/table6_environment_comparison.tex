@@ -1,0 +1,21 @@
+% =====================================================================
+%  TABLE 6 — Environment-wise comparison: Existing vs YOLO11-nano
+%  Existing model reports confidence-score range; this work reports
+%  Precision, Recall and mAP@50 (Phase 2).
+% =====================================================================
+\documentclass[border=10pt]{standalone}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{tabular}{lc}
+\toprule
+\textbf{Environment} & \textbf{Confidence score} \\
+\midrule
+Bright / clear sky    & $\sim$1.00 \\
+Night / low-light     & 0.85 -- 0.98 \\
+Cluttered             & 0.70 -- 0.80 \\
+\bottomrule
+\end{tabular}
+
+\end{document}

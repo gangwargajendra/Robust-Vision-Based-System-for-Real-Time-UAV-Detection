@@ -1,0 +1,7 @@
+NIGHT_LOWLIGHT VALIDATION
+=========================
+YAML: data_val_night_lowlight.yaml
+Precision: 0.969499
+Recall: 0.883978
+mAP50: 0.959998
+mAP50-95: 0.658340

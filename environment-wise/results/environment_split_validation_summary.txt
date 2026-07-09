@@ -1,0 +1,29 @@
+ENVIRONMENT-WISE VALIDATION (SPLIT DATASETS)
+============================================
+Model: /home/btech/2023/piyush.kumar23b/gajendra/code/runs/detect/weights/best.pt
+Device: 0
+Generated at: 2026-04-10T03:47:35
+
+BRIGHT_CLEAR VALIDATION
+--------------------------------
+YAML: data_val_bright_clear.yaml
+Precision: 0.968106
+Recall: 0.893259
+mAP50: 0.946287
+mAP50-95: 0.734200
+
+NIGHT_LOWLIGHT VALIDATION
+--------------------------------
+YAML: data_val_night_lowlight.yaml
+Precision: 0.969499
+Recall: 0.883978
+mAP50: 0.959998
+mAP50-95: 0.658340
+
+CLUTTERED_AMBIGUOUS VALIDATION
+--------------------------------
+YAML: data_val_cluttered_ambiguous.yaml
+Precision: 0.954697
+Recall: 0.846763
+mAP50: 0.915757
+mAP50-95: 0.609841

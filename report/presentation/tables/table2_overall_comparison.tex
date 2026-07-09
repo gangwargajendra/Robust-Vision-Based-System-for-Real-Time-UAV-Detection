@@ -1,0 +1,24 @@
+% =====================================================================
+%  TABLE 2 — Overall comparison: Existing vs YOLO11-nano  (Slide 3)
+% =====================================================================
+\documentclass[border=10pt]{standalone}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metric} & \textbf{Existing (YOLOv9 + EffNet-B3)} & \textbf{This work (YOLO11-nano)} \\
+\midrule
+Precision       & 0.9383                & \textbf{0.9622} \\
+Recall          & \textbf{0.8953}       & 0.8662 \\
+mAP@50          & 0.9307                & 0.9305 \\
+mAP@50--95      & 0.6214                & \textbf{0.6727} \\
+\midrule
+Box loss        & 0.9760                & \textbf{0.7614} \\
+Cls loss        & 0.6431                & \textbf{0.3774} \\
+DFL loss        & 1.2123                & \textbf{0.8826} \\
+\bottomrule
+\end{tabular}
+
+\end{document}
