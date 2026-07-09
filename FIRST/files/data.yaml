@@ -1,0 +1,23 @@
+# YOLO11 Dataset Configuration File
+# ===================================
+# This file defines the dataset structure and class information
+
+# Path to dataset root directory on server
+path: /home/btech/2023/piyush.kumar23b/gajendra/dataset/nondrone_copy
+
+# Train and val sets from dataset root
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 2  # Set to 2 to match labels (0 and 1)
+
+# Class names
+names:
+  0: nondrone
+  1: drone
+
+# Optional: Class weights (useful for imbalanced datasets)
+# Uncomment and modify if needed:
+# weights: [1.0]  # Weight for each class
+
